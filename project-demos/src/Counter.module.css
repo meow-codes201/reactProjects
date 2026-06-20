@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  background: radial-gradient(circle at top, #2a0066, #000);
+}
+.h {
+  font-size: 8em;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.btn {
+  display: flex;
+  gap: 100px;
+}
+.btn1 {
+  font-size: 2em;
+  border-radius: 50%;
+  padding: 40px;
+  background-image: linear-gradient(to bottom right, rgb(28, 0, 90), black);
+  border: none;
+  color: silver;
+}
+.btn1:hover {
+  background-image: linear-gradient(to bottom left, black, rgb(28, 0, 90));
+}
+.btn1:active {
+  background-image: linear-gradient(to top, black, rgb(28, 0, 90));
+}
