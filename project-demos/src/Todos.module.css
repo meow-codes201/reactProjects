@@ -1,0 +1,90 @@
+.ctr {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 25px;
+  padding-top: 100px;
+
+  background: linear-gradient(to bottom left, #000000, #2a0066);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+}
+
+.ip {
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+
+  background: #111;
+  color: white;
+}
+
+.ip::placeholder {
+  color: #aaa;
+}
+
+.ip:focus {
+  box-shadow: 0 0 10px purple;
+}
+
+.add {
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+  background: linear-gradient(to right, purple, #5a00cc);
+  color: white;
+
+  transition: 0.2s ease;
+}
+
+.add:hover {
+  transform: scale(1.05);
+}
+
+.sct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 320px;
+  padding: 12px 15px;
+
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+
+  backdrop-filter: blur(5px);
+}
+
+.task {
+  color: white;
+  font-size: 16px;
+}
+
+.x {
+  padding: 6px 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  background: crimson;
+  color: white;
+
+  transition: 0.2s ease;
+}
+
+.x:hover {
+  transform: scale(1.1);
+}
