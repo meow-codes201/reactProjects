@@ -1,0 +1,79 @@
+.ctr {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.ctr input {
+  width: 420px;
+  padding: 10px 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 18px;
+  background-color: aliceblue;
+  backdrop-filter: blur(10px);
+  outline: none;
+  transition: all 0.3s ease;
+}
+.ctr input:focus {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.ctr input::placeholder {
+  color: black;
+}
+.Fa {
+  font-size: 50px;
+  color: darkseagreen;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.Fa:hover {
+  transform: scale(1.1);
+  color: seagreen;
+}
+.ctr button {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #1a1a1a, #333);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 18px;
+  border: none;
+
+  transition: all 0.3s ease;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ctr button:hover {
+  background: white;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+  opacity: 0.9;
+}
+.ctr {
+  transition: background-color 0.4s ease;
+}
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+}
+.ctr div {
+  display: flex;
+  align-items: center;
+  animation: fadeSlide 0.4s ease;
+}
