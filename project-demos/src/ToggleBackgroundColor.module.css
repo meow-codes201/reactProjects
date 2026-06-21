@@ -1,0 +1,36 @@
+.ctr {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+.myBtn {
+  padding: 12px 24px;
+  border-radius: 30px;
+
+  border-width: 2px;
+
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.myBtn:hover {
+  transform: rotateY(-6px);
+  transform: scale(1.1);
+}
+.myBtn:active {
+  transform: scale(0.99);
+}
+.textContent {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+
+  transition: all 0.4 ease;
+}
