@@ -1,0 +1,45 @@
+.ts {
+  background-color: rgb(230, 206, 175);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: UnifrakturMaguntia;
+  font-weight: bold;
+}
+.img {
+  width: 180px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  height: 180px;
+  border: 3px solid rgb(105, 118, 83);
+}
+.qt {
+  font-size: 40px;
+  transition: all 0.3s ease;
+}
+.ar {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.btr {
+  display: flex;
+  align-items: end;
+  gap: 320px;
+}
+.btr button {
+  font-family: UnifrakturMaguntia;
+  background-color: rgb(96, 111, 70);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btr button:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255);
+  background-color: rgb(105, 118, 83);
+}
