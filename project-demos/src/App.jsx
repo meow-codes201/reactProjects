@@ -7,12 +7,11 @@ import Testimonials from "./Testimonials";
 import ToggleBackgroundColor from "./ToggleBackgroundColor";
 import { accordianData } from "./content";
 import Accordian from "./Accordian";
+import Forms from "./Forms";
 function App() {
   return (
     <>
-      {accordianData.map(({ id, title, content }) => (
-        <Accordian id={id} title={title} content={content} />
-      ))}
+      <Forms />
     </>
   );
 }
