@@ -11,10 +11,17 @@ import Forms from "./Forms";
 function App() {
   return (
     <>
+      {/* <Todos /> */}
+      {/* <Calculator /> */}
+      {/* <HiddenSearch /> */}
+      {/* <Meals /> */}
+      {/* <Testimonials /> */}
+      {/* <ToggleBackgroundColor/> */}
       {/* {accordionData.map((data) => (
         <Accordion id={data.id} title={data.title} content={data.content} />
       ))} */}
-      <Forms />
+      <Counter />
+      {/* <Forms /> */}
     </>
   );
 }
